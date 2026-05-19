@@ -13,5 +13,13 @@ function calc() {
     var res = pr * (0.0185 * Math.pow(1 + 0.0185, num2)) / (Math.pow(1 + 0.0185, num2) - 1);
     document.getElementById("res").innerHTML = "Ежемесячный платёж: " + Math.round(res) + "₽";
 };
+but1 = document.getElementById("but1");
+but2 = document.getElementById("but2");
 
-elem.onclick = calc;
+but1.addEventListener("click", (event) => {
+    event.preventDefault();
+    calc();
+})
+but2.addEventListener("click", (event) => {
+    event.preventDefault();
+})
