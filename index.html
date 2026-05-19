@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ЖК «Северный»</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>ЖК «Северный»</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">О ЖК</a></li>
+                    <li><a href="#apartments">Квартиры</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#payment">Расчёт ежемесячного платежа</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>О жилом комплексе</h2>
+            <p>ЖК «Северный» — современный жилой комплекс, расположенный в экологически чистом районе города. Просторные квартиры, развитая инфраструктура и комфортное окружение для всей семьи.</p>
+        </div>
+    </section>
+
+    <section id="apartments" class="section apartments">
+        <div class="container">
+            <h2>Квартиры</h2>
+            <div class="apartment-list">
+                <div class="apartment-card">
+                    <h3>1-комнатная квартира</h3>
+                    <p>Площадь: 40 м²</p>
+                    <p>Цена: от 3 200 000 ₽</p>
+                </div>
+                <div class="apartment-card">
+                    <h3>2-комнатная квартира</h3>
+                    <p>Площадь: 65 м²</p>
+                    <p>Цена: от 5 100 000 ₽</p>
+                </div>
+                <div class="apartment-card">
+                    <h3>3-комнатная квартира</h3>
+                    <p>Площадь: 85 м²</p>
+                    <p>Цена: от 7 400 000 ₽</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <img src="https://i.pinimg.com/originals/4e/f8/36/4ef836ec3c5ee2d6cc74c1c0e17a48b0.jpg"/>
+                <img src="https://i.pinimg.com/originals/a3/f1/69/a3f16976bc3f05e57e59d8292a145ab5.jpg"/>
+                <img src="https://www.mvvainc.com/media/pages/projects/teardrop-park/4d7201fecc-1639641614/lawn_leaves.jpg"/>
+                <img src="https://img.dmclk.ru/vitrina/owner/00/89/0089b083537c4fc8a3c55a23e815dc1c.jpg"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="payment" class="section payment">
+        <div class="container">
+            <h2>Расчёт ежемесячного платежа</h2>
+            <form>
+                <input type="number" id="num1" placeholder="Количество комнат" required/>
+                <input type="number" id="num2" placeholder="Срок кредита в месяцах" required/>
+                <button type="submit" id="elem">Расчитать</button>
+                <p id="res">Ежемесячный платёж:</p>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacts" class="section contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Адрес: г. Москва, ул. Северная, д. 10</p>
+            <p>Телефон: +7 (495) 123-45-67</p>
+            <p>Email: info@severny-jk.ru</p>
+            <form>
+                <input type="text" placeholder="Ваше имя" required/>
+                <input type="email" placeholder="Ваш email" required/>
+                <textareaplaceholder="Сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 ЖК «Северный». Все права защищены.</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
